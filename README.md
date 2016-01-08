@@ -1,2 +1,4 @@
 # functional-prolog
-Prolog macros for easy functional programming
+
+Prolog macros for easier programming in a more functional style, with syntax
+similar to haskell do notation and erlang.
