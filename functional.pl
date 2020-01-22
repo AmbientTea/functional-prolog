@@ -6,7 +6,7 @@
 
 % assignment from single-argument fact clauses
 :-op(700, xfy, <<).
-<<(X,Y) :- F =.. [Y,X], call(F).
+<<(X,Y) :- call(Y, X).
 
 % this macro translates -> function notation into normal clauses
 :- multifile(term_expansion).
