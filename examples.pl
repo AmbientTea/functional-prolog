@@ -43,3 +43,5 @@ fact([prolog, 'is', cool]).
 :-	Fact << fact,
 	S <- append(['fact:'], Fact),
 	writeln(S).
+
+:- halt(0).
